@@ -15,7 +15,7 @@ def time():
 label = tk.Label(root, font=('calibri', 50, 'bold'), background='black', foreground='yellow')
 label.pack(anchor='center')
 
-# time()  # Call the time function to start the clock
+time()  # Call the time function to start the clock
 
 # Run the tkinter loop
 root.mainloop()
