@@ -3,7 +3,7 @@ from time import strftime
 
 # Create a window
 root = tk.Tk()
-root.title("Digital Clock")
+root.title("Digital Clock tkinter")
 
 # Set window size (width x height) and background color
 root.geometry("400x200")  # Width: 400px, Height: 200px
