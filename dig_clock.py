@@ -15,9 +15,14 @@ def time():
     label.config(text=string)
     label.after(1000, time)  # Update the time every 1000ms (1 second)
 
+# Heading Label
+heading = tk.Label(root, text="Digital Clock", font=('calibri', 20, 'bold'), background='white', foreground='black')
+heading.pack(anchor='n', pady=10)
+
 # Label to display the time
 label = tk.Label(root, font=('calibri', 50, 'bold'), background='white', foreground='yellow')
 label.pack(anchor='center')
+
 
 
 # Run the tkinter loop
